@@ -12,7 +12,7 @@ ground = Entity(model='plane', texture='assets/pasir.jpg',
 ground.texture_scale = (2, 2)
 
 player = Entity(model='assets/nemo/scene.gltf', collider='mesh',
-                scale=(0.002), position=(0, 5, 0))
+                scale=(0.002), position=(0, 5, -90))
 player.rotation_x = 90
 
 animasi_player = Actor('assets/nemo/scene.gltf')
@@ -22,7 +22,7 @@ animasi_player.play('swim')
 hill = Entity(model='assets/hill/scene.gltf',
               scale=20, collider='box', position=(-150, 7, 270))
 acropora = Entity(model='assets/acropora/scene.gltf',
-                  scale=0.5, collider='box', position=(-60, -5, 115))
+                  scale=0.5, collider='box', position=(-80, -5, 115))
 kraken = Entity(model='assets/kraken/scene.gltf',
                 scale=0.03, collider='box', position=(-80, 25, 150))
 pocillopora = Entity(model='assets/pocillopora/scene.gltf',
@@ -36,7 +36,7 @@ coral = Entity(model='assets/coral_purple/scene.gltf',
 rumput = Entity(model='assets/rumput/scene.gltf',
                 scale=0.5, collider='box', position=(20, 0, 10))
 clam = Entity(model='assets/clam/scene.gltf',
-              scale=4, collider='box', position=(10, 4, 50))
+              scale=4, collider='box', position=(50, 4, 60))
 
 animasi_kraken = Actor('assets/kraken/scene.gltf')
 animasi_kraken.reparentTo(kraken)
@@ -44,10 +44,10 @@ animasi_kraken.reparentTo(kraken)
 
 def play_kraken():
     animasi_kraken.play('Take 001')
-    invoke(play_kraken, delay=3)
+    invoke(play_kraken, delay=15)
 
 
-invoke(play_kraken, delay=3)
+invoke(play_kraken, delay=1)
 
 
 camera.rotation_x = 10
@@ -67,15 +67,15 @@ for _ in range(10):
 
     x = random.uniform(-100, 100)
     z = random.uniform(-100, 100)
+    reef_clone3 = duplicate(reef)
+    reef_clone3.position = (x, 0, z)
+
+    x = random.uniform(-100, 100)
+    z = random.uniform(-100, 100)
     starfish_clone = duplicate(starfish)
     starfish_clone.position = (x, 0, z)
 
-for _ in range(20):
-    x = random.uniform(-100, 100)
-    z = random.uniform(-100, 100)
-    reef_clone = duplicate(reef)
-    reef_clone.position = (x, 0, z)
-
+for _ in range(40):
     x = random.uniform(-100, 100)
     z = random.uniform(-100, 100)
     pocillopora_clone = duplicate(pocillopora)
@@ -103,7 +103,7 @@ def update():
         player.x += 0.3
         player.rotation_y = -90
 
-    if held_keys['w'] and player.z <= 45:
+    if held_keys['w'] and player.z <= 90:
         animasi_player.play('swim')
         player.z += 0.3
         player.rotation_y = 180
@@ -142,7 +142,7 @@ def update():
         player.y += 0.08
         player.rotation_x = 120
 
-    if held_keys['down arrow'] and player.y >= 0.8:
+    if held_keys['down arrow'] and player.y >= 1:
         animasi_player.play('swim')
         player.y -= 0.08
         player.rotation_x = 60
