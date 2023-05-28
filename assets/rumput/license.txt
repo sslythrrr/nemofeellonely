@@ -1,0 +1,11 @@
+Model Information:
+* title:	Underwater plant pack
+* source:	https://sketchfab.com/3d-models/underwater-plant-pack-a6edeb75ef784189b20c5fc058ede913
+* author:	assetfactory (https://sketchfab.com/assetfactory)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Underwater plant pack" (https://sketchfab.com/3d-models/underwater-plant-pack-a6edeb75ef784189b20c5fc058ede913) by assetfactory (https://sketchfab.com/assetfactory) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

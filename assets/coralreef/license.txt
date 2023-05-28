@@ -1,0 +1,11 @@
+Model Information:
+* title:	Coral Reef Outcrop
+* source:	https://sketchfab.com/3d-models/coral-reef-outcrop-8bc72c9e4575470ea30d1313e48b730c
+* author:	Ben M. Ritt (https://sketchfab.com/BenMRitt)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Coral Reef Outcrop" (https://sketchfab.com/3d-models/coral-reef-outcrop-8bc72c9e4575470ea30d1313e48b730c) by Ben M. Ritt (https://sketchfab.com/BenMRitt) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
