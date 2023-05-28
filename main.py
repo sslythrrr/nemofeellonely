@@ -9,8 +9,6 @@ Sky()
 ground = Entity(model='plane', texture='assets/pasir.jpg',
                 collider='mesh', scale=(250, 20, 250))
 
-ground.texture_scale = (2, 2)
-
 player = Entity(model='assets/nemo/scene.gltf', collider='mesh',
                 scale=(0.002), position=(0, 5, -90))
 player.rotation_x = 90
