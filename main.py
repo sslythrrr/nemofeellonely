@@ -73,7 +73,6 @@ for _ in range(10):
     starfish_clone = duplicate(starfish)
     starfish_clone.position = (x, 0, z)
 
-for _ in range(30):
     x = random.uniform(-100, 100)
     z = random.uniform(-100, 100)
     pocillopora_clone = duplicate(pocillopora)
