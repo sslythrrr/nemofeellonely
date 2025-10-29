@@ -1,7 +1,11 @@
 # Nemo Feels Lonely
-## -- An Underwater Exploration Mini-Game --
+## -- Ursina Engine--
 
-A simple 3D underwater exploration game built with the Ursina game engine. The project features a player-controlled fish (Nemo) swimming in a 3D environment populated with coral, marine life, and other scenery.
+This is a simple 3D exploration project created to learn and try out the Ursina game engine.
+The "game" itself is a basic "swimming simulator" with no complex objectives. It features a player-controlled fish (Nemo) that can swim freely in a 3D environment populated with coral, marine life, and other scenery.
+
+### 3D Asset Credits
+All 3D models and assets used in this project were acquired for free from **Sketchfab**.
 
 ---
 
